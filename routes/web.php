@@ -6,7 +6,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/random', function () {
-    return view('random');
+Route::get('/ultra', function () {
+    return view('ultra');
 });
 
