@@ -6,7 +6,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/logup', function () {
-    return view('logup');
+Route::get('/random', function () {
+    return view('random');
 });
 
