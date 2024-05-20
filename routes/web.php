@@ -7,14 +7,6 @@ Route::get('/', function () {
 });
 
 
-Route::get('/masuk', function () {
-    return view('masuk');
+Route::get('/halo', function () {
+    return view('halo');
 
-Route::get('/login', function () {
-    return view('login');
-});
-
-Route::get('/home', function () {
-    return view('dasboard');
-
-});
